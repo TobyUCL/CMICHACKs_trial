@@ -160,7 +160,9 @@ input, select, textarea {
       [time-1645] 0.7em
       [time-1700] 0.7em
       [time-1715] 0.7em
-      [time-1730] 0.7em;
+      [time-1730] 0.7em
+      [time-1745] 0.7em
+      [time-1800] 0.7em;
 
       /* Note 1:
       Use 24hr time for gridline names for simplicity
@@ -265,17 +267,19 @@ input, select, textarea {
 }
 
 .track-2 {
-  background-color: #687f00;
+  background-color: #3d8c3d;
   color: #fff;
 }
 
 .track-3 {
-  background-color: #544D69;
+  display: flex;
+  align-items: center;
+  background-color: #1259B2;
   color: #fff;
 }
 
 .track-4 {
-  background-color: #c35500;
+  background-color: #d76900;
   color: #fff;
 }
 
